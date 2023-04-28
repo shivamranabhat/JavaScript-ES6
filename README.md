@@ -18,7 +18,7 @@ Difference is if we use var to declare a variable we can use the number to
 display inside for loop as well as outside the loop but inside the funtion
 
 b. But using const or let we cant do that. It will throw an error<br>
-[!error](./output/const-error.png)<br>
+![error](./output/const-error.png)<br>
 
 function cube()
 {
