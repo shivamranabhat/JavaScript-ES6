@@ -78,7 +78,7 @@ const colors = ['Red','Green','Blue'];
 //         Traditional method
 const mapColor = colors.map(function(colors){
     return console.log(`It's ${colors}`);
-})
+});
 //          Modern method
 const colorItem = colors.map(colors=>console.log(`It's ${colors}`)); // `` is called template literal 
 
