@@ -149,3 +149,31 @@ const info ={<br>
 
 const fullInfo = {...info, lname:'Ranabhat'}<br>
 console.log(fullInfo);<br>
+
+//Inheritance in js<br>
+class Animal<br>
+{<br>
+    constructor(type)<br>
+    {<br>
+        this.type = type;<br>
+    }<br>
+    eat()<br>
+    {<br>
+        console.log(`Hello. Im ${this.type}.`);<br>
+    }<br>
+}<br>
+class Person extends Animal<br>
+{<br>
+    constructor(name,type)<br>
+    {<br>
+        super(type);<br>
+        this.name = name;<br>
+    }<br>
+    walk()<br>
+    {<br>
+        console.log(`My name is ${this.name}.I can walk with two legs`);<br>
+    }<br>
+}<br>
+const person = new Person("Shivam","Human");<br>
+person.eat();<br>
+person.walk();<br>
